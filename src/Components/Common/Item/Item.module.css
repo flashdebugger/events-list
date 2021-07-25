@@ -1,0 +1,17 @@
+.item {
+  max-height: 90px;
+  padding: 26px 20px;
+  background-color: white;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #e9f6ff;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.item:hover {
+  background-color: #e9f6ff;
+}

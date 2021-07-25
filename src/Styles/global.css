@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(90deg, #f4f0f3, #eaf3f7);
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+}
+
+span:hover {
+  overflow: visible;
+  white-space: unset;
+}

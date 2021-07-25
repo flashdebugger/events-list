@@ -1,0 +1,28 @@
+.primary,
+.primaryBold,
+.secondary {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 600px;
+}
+
+.primary {
+  font-size: 14px;
+  font-weight: 400;
+
+  /* To show the second line without changing the height on hover. But this will break the rule in the description. */
+  /* TODO: Another option is to use tooltip component, and if the user hover over the wallet address and some important content, then we can let him copy it. */
+  height: 34px;
+  line-height: 1;
+}
+
+.primaryBold {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.secondary {
+  font-size: 12px;
+  font-weight: 400;
+}
